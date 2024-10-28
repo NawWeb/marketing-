@@ -1,0 +1,49 @@
+#portfolio{
+    padding: 100px 0; 
+}
+#portfolio .port_main .heading{
+    color: var(--main-color);
+    font-weight: var(--head-font);
+    font-family: var(--font);
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+#portfolio .port_main .port_item .port_inner button{
+    color: var(--color);
+}
+#portfolio .port_main .port_item .port_inner button.active{
+    background-color: var(--main-color);
+    color: var(--color-add);
+}
+#portfolio .port_main .port_item .port_inner .port_image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#portfolio .port_main .port_item .port_inner .port_image .port_overlay{
+    background-color: var(--port-overlay);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+#portfolio .port_main .port_item .port_inner .port_image .port_overlay i{
+    color: var(--color-add);
+    border: 2px solid var(--color-add);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#portfolio .port_main .port_item .port_inner .port_image:hover .port_overlay{
+    opacity: 1;
+}

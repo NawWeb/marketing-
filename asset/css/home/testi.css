@@ -1,0 +1,83 @@
+#testi{
+    padding: 100px 0;
+    position: relative;
+}
+#testi .slick-dots{
+    text-align: center;
+    margin-top: 20px;
+}
+#testi .slick-dots li{
+    margin: 0 10px;
+    height: 16px;
+    width: 16px;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    position: relative;
+}
+#testi .slick-dots li button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    background-color: var(--main-color);
+    border: transparent;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    opacity: 0;
+}
+#testi .slick-dots li.slick-active button{
+    opacity: 1;
+}
+#testi .testi_main .heading{
+    color: var(--main-color);
+    font-weight: var(--head-font);
+    font-family: var(--font);
+    text-align: center;
+}
+#testi .testi_main .addi{
+    color: var(--color);
+    font-weight: 300;
+    font-family: var(--font);
+    text-align: center;
+}
+#testi .testi_main .testi_item{
+    padding: 100px 0;
+}
+#testi .testi_main .testi_item .testi_inner{
+    background-color: var(--port-overlay);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#testi .testi_main .testi_item .testi_inner img{
+    height: 200px ;
+    width: 300px;
+    border: 1px solid var(--color-add);
+    border-radius: 20px 0 0 0;
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    -ms-border-radius: 20px 0 0 0;
+    -o-border-radius: 20px 0 0 0;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text{
+    padding: 30px 50px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h3{
+    color: var(--color-add);
+    font-weight: 500;
+    font-family: var(--font);
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h6{
+    color: var(--overlay);
+    font-weight: 300;
+    font-family: var(--font);
+}
+#testi .testi_main .testi_item .testi_inner .testi_text p{
+    color: var(--overlay);
+    font-weight: 300;
+    font-family: var(--font);
+}

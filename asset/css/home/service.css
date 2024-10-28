@@ -1,0 +1,65 @@
+#service{
+    padding: 100px 0;
+}
+#service .service_main{
+    padding-top: 50px;
+}
+#service .service_main .heading{
+    color: var(--main-color);
+    font-weight: var(--head-font);
+    font-family: var(--font);
+    padding-bottom: 80px;
+    text-align: center;
+}
+#service .service_main .service_item{
+    margin-top: 20px;
+}
+#service .service_main .service_item .service_inner{
+    padding: 30px 30px;
+    background-color: var(--main-color);
+    border: 2px solid var(--color);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#service .service_main .service_item .service_inner h3{
+    color: var(--color-add);
+    font-weight: 500;
+    font-family: var(--font);
+    letter-spacing: 2px;
+    overflow: hidden;
+    text-align: center;
+    transition: var(--trans);
+    -webkit-transition: var(--trans);
+    -moz-transition: var(--trans);
+    -ms-transition: var(--trans);
+    -o-transition: var(--trans);
+}
+#service .service_main .service_item .service_inner:hover h3{
+    padding: 20px 0;
+}
+#service .service_main .service_item .service_inner h6{
+    color: var(--overlay);
+    font-weight: 300;
+    font-family: var(--font);
+    word-spacing: 2px;
+}
+#service .service_main .service_item .service_inner .btn{
+    background-color: var(--color);
+    color: var(--color-add);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+    padding: var(--btn-pad);
+    border: 2px solid var(--color-add);
+    transition: var(--btn-trans);
+    -webkit-transition: var(--btn-trans);
+    -moz-transition: var(--btn-trans);
+    -ms-transition: var(--btn-trans);
+    -o-transition: var(--btn-trans);
+}
+#service .service_main .service_item .service_inner .btn:hover{
+    background-color: transparent;
+}

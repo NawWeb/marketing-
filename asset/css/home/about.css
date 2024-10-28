@@ -1,0 +1,80 @@
+#about{
+    padding: 100px 0;
+}
+#about .about_main .heading{
+    color: var(--main-color);
+    font-weight: var(--head-font);
+    font-family: var(--font);
+    text-align: center;
+}
+#about .about_main .about_item{
+    margin-top: 100px;
+    border-left:2px solid var(--main-color);
+    border-right:2px solid var(--main-color);
+}
+#about .about_main .about_item .about_inner{
+    padding: 20px 20px;
+}
+#about .about_main .about_item .about_inner .about_text{
+    padding: 10px 30px;
+}
+#about .about_main .about_item .about_inner .about_text h3{
+    color: var(--main-color);
+    font-weight: 500;
+    font-family: var(--font);
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+#about .about_main .about_item .about_inner .about_text h4{
+    color: var(--color);
+    font-weight: 600;
+    font-family: var(--font);
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+#about .about_main .about_item .about_inner .about_text h6{
+    background-color: var(--main-color);
+    color: var(--overlay);
+    font-size: 14px;
+    font-weight: 300;
+    font-family: var(--font);
+    padding: 10px 20px;
+    margin: 10px 0;
+    word-spacing: 2px;
+    border: 2px solid var(--color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#about .about_main .about_item .about_inner .about_text p{
+    color: var(--overlay);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--font);
+    word-spacing: 4px;
+    padding: 10px 0;
+}
+#about .about_main .about_item .about_inner .about_text .about_icon{
+    margin: 10px 0;
+    text-align: center;
+}
+#about .about_main .about_item .about_inner .about_text .about_icon i{
+    color: var(--main-color);
+    font-size: 40px;
+    padding: 0 5px;
+}
+#about .about_main .about_item .about_inner .about_image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#about .about_main .about_item .about_inner .about_image .about_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--overlay);
+}

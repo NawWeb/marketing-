@@ -1,0 +1,75 @@
+@import '../css/home/nav.css';
+@import '../css/home/bannar.css';
+@import '../css/home/about.css';
+@import '../css/home/service.css';
+@import '../css/home/portfolio.css';
+@import '../css/home/plan.css';
+@import '../css/home/testi.css';
+@import '../css/home/contact.css';
+@import '../css/home/footer.css';
+
+/* font family */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* google fonts */
+/* font family */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+
+/* preeloder */
+.preeloder{
+    background-color: var(--main-color);
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999999;
+}
+/* preeloder */
+/* back to top */
+.backtotop{
+    position: fixed;
+    bottom: 15%;
+    right: 5%;
+    padding: 10px 16px;
+    background-color: var(--main-color);
+    border: 2px solid var(--color);
+    display: none;
+    z-index: 99;
+}
+.backtotop i{
+    color: var(--color-add);
+    font-size: 30px;
+}
+/* back to top */
+
+/* selected value */
+:root{
+--main-color: #f49a66;
+--color: #000;
+--overlay: #0000009b;
+--port-overlay: #f49a66b3;
+--color-add: #fff;
+
+--font: "Montserrat", sans-serif;
+--head-font: bold;
+
+--btn-pad: 10px 30px;
+
+--trans: 0.5s;
+--btn-trans: 0.5s;
+
+}
+/* selected value */

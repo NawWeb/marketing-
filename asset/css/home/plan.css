@@ -1,0 +1,92 @@
+#plan{
+    padding: 100px 0;
+}
+#plan .plan_main .heading{
+    color: var(--main-color);
+    font-weight: var(--head-font);
+    font-family: var(--font);
+    text-align: center;
+}
+#plan .plan_main .plan_item{
+    margin-top: 100px;
+}
+#plan .plan_main .plan_item .plan_inner{
+    padding: 40px 0px;
+    background-color: var(--main-color);
+    border: 2px solid var(--color);
+    border-radius: 20px 10px 0 0;
+    -webkit-border-radius: 20px 10px 0 0;
+    -moz-border-radius: 20px 10px 0 0;
+    -ms-border-radius: 20px 10px 0 0;
+    -o-border-radius: 20px 10px 0 0;
+}
+#plan .plan_main .plan_item .plan_inner .plan_shape{
+    background-color: var(--color);
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    color: var(--color-add);
+    border: 2px solid var(--color-add);
+    border-radius: 20px 10px 0 0;
+    -webkit-border-radius: 20px 10px 0 0;
+    -moz-border-radius: 20px 10px 0 0;
+    -ms-border-radius: 20px 10px 0 0;
+    -o-border-radius: 20px 10px 0 0;
+}
+#plan .plan_main .plan_item .plan_inner .plan_shape h2{
+    font-size: 30px;
+    font-weight: var(--head-font);
+    font-family: var(--font);
+    line-height: 100px;
+    text-align: center;
+}
+#plan .plan_main .plan_item .plan_inner .plan_text{
+    text-align: center;
+}
+#plan .plan_main .plan_item .plan_inner .plan_text h3{
+    color: var(--color-add);
+    font-weight: 600;
+    font-family: var(--font);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    position: relative;
+}
+#plan .plan_main .plan_item .plan_inner .plan_text h3::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--color-add);
+}
+#plan .plan_main .plan_item .plan_inner .plan_text h6{
+    color: var(--color-add);
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--font);
+    text-transform: capitalize;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--overlay);
+}
+#plan .plan_main .plan_item .plan_inner .plan_text .plan_btn{
+    padding: 20px 0;
+    text-align: center;
+}
+#plan .plan_main .plan_item .plan_inner .plan_text .plan_btn .btn{
+    background-color: var(--color);
+    color: var(--color-add);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: var(--font);
+    padding: var(--btn-pad);
+    border: 2px solid var(--color-add);
+    transition: var(--btn-trans);
+    -webkit-transition: var(--btn-trans);
+    -moz-transition: var(--btn-trans);
+    -ms-transition: var(--btn-trans);
+    -o-transition: var(--btn-trans);
+}
+#plan .plan_main .plan_item .plan_inner .plan_text .plan_btn .btn:hover{
+    background-color: transparent;
+}

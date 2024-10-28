@@ -1,0 +1,49 @@
+#bannar{
+    padding: 100px 0;
+}
+#bannar .bannar_main{
+    background: linear-gradient(#000000ac, #000000ac),url(../../images/bannar.jpg) no-repeat center/cover;
+    padding: 200px 0;
+}
+#bannar .bannar_main .bannar_item .bannar_inner{
+    text-align: center;
+    text-transform: capitalize;
+}
+#bannar .bannar_main .bannar_item .bannar_inner h3{
+    color: var(--color-add);
+    font-weight: 200;
+    font-family: var(--font);
+}
+#bannar .bannar_main .bannar_item .bannar_inner h2{
+    color: var(--color-add);
+    font-weight: 300;
+    font-family: var(--font);
+}
+#bannar .bannar_main .bannar_item .bannar_inner h1{
+    color: var(--main-color);
+    font-size: 58px;
+    font-weight: 600;
+    font-family: var(--font);
+}
+#bannar .bannar_main .bannar_item .bannar_inner h5{
+    color: var(--color-add);
+    font-weight: 300;
+    font-family: var(--font);
+    padding: 16px 0;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_btn{
+    margin: 30px 0;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_btn .btn{
+    background-color: var(--main-color);
+    color: var(--color-add);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font);
+    padding: var(--btn-pad);
+    border: 2px solid var(--color-add);
+    transition: var(--btn-trans);
+}
+#bannar .bannar_main .bannar_item .bannar_inner .bannar_btn .btn:hover{
+    background-color: transparent;
+}

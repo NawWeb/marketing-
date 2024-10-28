@@ -1,0 +1,26 @@
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: var(--main-color);
+    border-top: 3px solid var(--color-add);
+}
+footer h6{
+    color: var(--color-add);
+    font-size: 18px;
+    font-weight: 200;
+    font-family: var(--font);
+    text-align: center;
+    line-height: 80px;
+}
+footer h6 span{
+    background-color: var(--color);
+    color: var(--main-color);
+    font-weight: 500;
+    padding: 6px 10px;
+    border: 1px solid var(--color-add);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
